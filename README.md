@@ -19,3 +19,8 @@ A、B、C、D、E
 
 练习目的：
 熟悉vuex的创建及使用，提高工程的处理效率及提升性能。
+
+额外：
+webpack文件的配置
+cnpm install vuex --save-dev //搭配在本地
+cnpm install vuex --save //搭配在线上

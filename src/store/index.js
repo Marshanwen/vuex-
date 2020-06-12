@@ -1,18 +1,19 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
+import Vuex from 'Vuex'
 
 Vue.use(Vuex)
 
-
-
 export default new Vuex.Store({
-    state:{
-        val:'hello world'
-    },
-    mutations:{
-        //可以通过state来获取当前state的值
-        setVal(state, newVal){
-            state.val = newVal
-        }
+  state:{
+    val:'hello world',
+    name:'ding',
+    age:18,
+    doc:'doc',
+    my:'mars'
+  },
+  mutations:{
+    setVal(state, newVal){
+     state.val = newVal
     }
+  }
 })

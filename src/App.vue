@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <component-a></component-a>
+    <componentsA></componentsA>
+    <componentCount></componentCount>
   </div>
 </template>
 
 <script>
-import componentA from './components/componentA'
-
+import componentsA from './components/componentsA'
+import componentCount from './components/componentCount'
 export default {
   name: 'App',
   components: {
-    componentA
+    componentsA,
+    componentCount
   }
 }
 </script>
